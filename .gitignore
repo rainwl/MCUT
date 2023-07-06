@@ -36,3 +36,7 @@ site/
 *.app
 
 cmake-build-debug/
+
+tutorials/CSGBoolean/.idea/
+
+.idea/
