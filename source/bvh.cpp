@@ -24,7 +24,7 @@
 #include <mcut/internal/utils.h>
 #include "mcut/internal/timer.h"
 
-#include <cmath> // see: if it is possible to remove thsi header
+#include <cmath> // see: if it is possible to remove this header
 #include <queue>
 
 #ifdef _MSC_VER
@@ -812,7 +812,7 @@ uint32_t BoundingVolumeHierarchy::flattenBVHTree(std::shared_ptr<BVHBuildNode> n
         linearNode->primitivesOffset = node->firstPrimOffset;
         linearNode->nPrimitives = node->nPrimitives;
     } else {
-        // Creater interior flattened BVH node
+        // Create interior flattened BVH node
         linearNode->axis = node->splitAxis;
         linearNode->nPrimitives = 0;
 
